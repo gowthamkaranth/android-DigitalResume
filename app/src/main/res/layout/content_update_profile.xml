@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.codingfuels.digitalresume.Views.UpdateProfileActivity"
+    tools:showIn="@layout/activity_update_profile">
+
+
+
+    <EditText
+        android:id="@+id/name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/objective_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Objective"
+         />
+
+    <EditText
+        android:id="@+id/profile_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/skills_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Skills"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/intrsts_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/intrsts"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/snippets_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/personalSnippet"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/reference_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/referenceString"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/name_of_education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nameOfEducation"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/passing_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/passingYear"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/major"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/board_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/major"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/percentage"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/companyName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/position"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/joining_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/joiningDay"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/last_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/lastDay"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/achivements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/achivements"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+    <EditText
+        android:id="@+id/references"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/references"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DigitalResume</string>
+    <string name="title_activity_update_profile">UpdateProfileActivity</string>
+    <string name="intrsts">Interests</string>
+    <string name="personalSnippet">Personal Snippets</string>
+    <string name="referenceString">Reference String</string>
+
+    <!-- Education Strings -->
+    <string name="nameOfEducation">Degree</string>
+    <string name="passingYear">Year of passing</string>
+    <string name="major">Major</string>
+    <string name="boardName">Board Name</string>
+    <string name="percentage">Percentage</string>
+
+    <!-- Profession Strings -->
+    <string name="companyName">Company Name</string>
+    <string name="position">position</string>
+    <string name="joiningDay">Joining Day</string>
+    <string name="lastDay">Last Day</string>
+    <string name="achivements">Achivements</string>
+    <string name="references">References</string>
+
+
+
+    achivements
+
+
+</resources>
